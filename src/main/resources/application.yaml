@@ -1,0 +1,45 @@
+#端口号 上下文路径
+server:
+#  port: 8080
+  servlet:
+    context-path: /csom/
+#数据源配置
+spring:
+  datasource:
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.96.86.132:3306/csom?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 1000MB
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+    timeout: 30000
+    database: 1
+
+
+#Mybatis-plus配置
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*Mapper.xml
+  type-aliases-package: com.hlx.csom.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+  type-enums-package: com.hlx.csom.enums
+
+
+
+
+logging:
+  level:
+    com.hlx.csom.mapper: debug
