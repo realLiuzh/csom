@@ -30,16 +30,16 @@ public class RedisServiceImpl implements RedisService {
     Logger logger = LoggerFactory.getLogger(RedisServiceImpl.class);
 
     //小程序总的浏览量
-    private String TOTAL_VISIT_COUNT = "TOTAL:VISIT:COUNT";
+    public static final String TOTAL_VISIT_COUNT = "TOTAL:VISIT:COUNT";
 
     //用户点过赞的文章
-    private String USER_LIKE_ARTICLE = "USER:LIKE:ARTICLE";
+    public static final String USER_LIKE_ARTICLE = "USER:LIKE:ARTICLE";
 
     //文章被点赞总数
-    private String ARTICLE_LIKE_COUNT = "ARTICLE:LIKE:COUNT";
+    public static final String ARTICLE_LIKE_COUNT = "ARTICLE:LIKE:COUNT";
 
     //文章被浏览数
-    private String ARTICLE_VISIT_COUNT = "ARTICLE:VISIT:COUNT";
+    public static final String ARTICLE_VISIT_COUNT = "ARTICLE:VISIT:COUNT";
 
 
     @Resource

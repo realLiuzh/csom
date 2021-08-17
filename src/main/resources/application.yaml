@@ -1,6 +1,6 @@
 #端口号 上下文路径
 server:
-#  port: 8080
+  port: 8080
   servlet:
     context-path: /csom/
 #数据源配置
@@ -16,7 +16,7 @@ spring:
       max-file-size: 100MB
       max-request-size: 1000MB
   redis:
-    host: 127.0.0.1
+    host: 47.96.86.132
     port: 6379
     lettuce:
       pool:
