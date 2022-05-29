@@ -1,0 +1,12 @@
+<view class="content">
+  <view
+  class="cont"
+  wx:for="{{list}}"
+  wx:key="key"
+  >
+    <navigator url="/pages/article/article?id={{item.id}}" class="item">
+      {{item.title}}
+      <i class="iconfont icon-dayuhao pos"></i>
+    </navigator>
+  </view> 
+</view>

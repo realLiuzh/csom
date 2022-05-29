@@ -1,0 +1,14 @@
+.content {
+  margin-top: 40rpx;
+  padding: 1rem;
+}
+.content .statement {
+  display: flex;
+}
+.content .statement .special {
+  width: 6.5rem;
+}
+.content .signature {
+  color: var(--fontcolor);
+  font-size: 25rpx;
+}

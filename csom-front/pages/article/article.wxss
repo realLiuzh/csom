@@ -1,0 +1,47 @@
+/* pages/article/article.wxss */
+@import "../../style/font.wxss";
+page{
+    color: #666;
+}
+.title{
+    text-align: center;
+    font-size: 40rpx;
+    margin: 20rpx;
+}
+.article{
+    margin: 0 30rpx;
+    padding: 20rpx;
+}
+.article view{
+    text-indent: 2em;
+    padding: 10rpx 0rpx;
+}
+.name{
+    text-align: end;
+}
+.pos{
+    text-align: center;
+}
+.icon-dianzan1,
+.icon-dianzan{
+    font-size: 3rem;
+}
+.icon-dianzan{
+    color: #ef5b5f;
+}
+.pos .pageview{
+    display: flex;
+    justify-content: space-around;
+}
+.suspension{
+    text-align: center;
+    line-height: 3rem;
+    position: fixed;
+    right: 0;
+    top: 70%;
+    width: 3rem;
+    height: 3rem;
+    opacity: 0.5;
+    border-radius: 50%;
+    background-color: #bdc3c7;
+}

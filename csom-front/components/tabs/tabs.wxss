@@ -1,0 +1,20 @@
+/* compoment/tab/tab.wxss */
+.tabs_title {
+  display: flex;
+  padding: 15rpx;
+  justify-content: space-around;
+}
+.title_item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #ef5b5f;
+  padding: 15rpx;
+  margin: 10rpx;
+  color: white;
+}
+.active {
+  background-color: #fe970f;
+}

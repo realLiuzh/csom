@@ -1,0 +1,5 @@
+<!--技术培训页面-->
+<sign></sign>
+<view class="title">技术培训</view>
+<listrepair listTrain="{{listTrain}}"></listrepair>
+<currentpage class="currentpage" page="{{page}}" binditemcurrPage="handlechangecurr"></currentpage>

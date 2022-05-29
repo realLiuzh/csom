@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  margin-left: 1.5rem;
+}
+.content .last,
+.content .next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ef5b5f;
+  border-radius: 20rem;
+  height: 2.5rem;
+  width: 4rem;
+  margin: 0.5rem;
+}
+.content .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #ef5b5f;
+  margin: 0.5rem;
+}
+.content .specile {
+  background-color: #fe970f;
+}

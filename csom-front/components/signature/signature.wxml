@@ -1,0 +1,11 @@
+<view class="content">
+    <!-- <view class="signature">来源：重庆南部公共交通有限公司维修一厂党总支部</view> -->
+    <view class="signature">提供：{{signature.author}}</view>
+    <view class="signature">编辑：{{signature.edit}}</view>
+    <view class="signature">审核：{{signature.check}}</view>
+    <!-- <view class="signature">终审：{{signature.finalCheck}}</view>
+    <view class="statement">
+        <view class="signature special">声明：</view>
+        <view class="signature">除声明原创内容之外，其余稿件文字及图片均来自网络及各大主流媒体，版权归原作者所有。若有来源标注错误或侵犯了您的合法权益，请联系我们更正、删除。</view>
+    </view> -->
+</view>

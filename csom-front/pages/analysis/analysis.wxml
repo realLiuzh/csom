@@ -1,0 +1,5 @@
+<!--维修案例分析-->
+<sign></sign>
+<view class="title">维修案例分析</view>
+<listrepair listanalysis="{{listanalysis}}"></listrepair>
+<currentpage class="currentpage" page="{{page}}" binditemcurrPage="handlechangecurr"></currentpage>

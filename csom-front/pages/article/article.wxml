@@ -1,0 +1,17 @@
+<sign></sign>
+<view class="title">{{title}}</view>
+<view class="article">
+      <rich-text nodes="{{content}}" ></rich-text>
+    <view class="name">{{author}}</view>
+</view>
+
+
+<view class="pos">
+    <i class="{{good == true?'icon-dianzan1 iconfont':'icon-dianzan iconfont'}}" bind:tap="changeImgs"></i>
+    <view class="pageview">
+        <text class="viewpage">浏览量：{{visitNum}}</text>
+        <text class="viewpage">点赞量：{{likeNum}}</text>
+    </view>
+</view>
+<signature signature="{{signature}}"></signature>
+<view class="suspension" bind:tap="bigImg">图片</view>

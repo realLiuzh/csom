@@ -1,0 +1,12 @@
+/* pages/listdrive/listdrive.wxss */
+.title {
+    text-align: center;
+    margin: 20rpx;
+    font-size: 40rpx;
+    font-weight: 1000;
+    color: var(--fontcolor);
+  }
+  .currentpage{
+    position: fixed;
+    bottom: 3vh;
+}

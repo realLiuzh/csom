@@ -1,0 +1,84 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "文章",
+          "pathName": "pages/article/article",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/analysis/analysis",
+          "pathName": "pages/analysis/analysis",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/listdrive/listdrive",
+          "pathName": "pages/listdrive/listdrive",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/article/article",
+          "pathName": "pages/article/article",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "pages/downword/downword",
+          "pathName": "pages/downword/downword",
+          "query": "id=2",
+          "scene": null
+        },
+        {
+          "name": "pages/listdrive/listdrive",
+          "pathName": "pages/listdrive/listdrive",
+          "query": "id=0",
+          "scene": null
+        },
+        {
+          "name": "pages/downword/downword",
+          "pathName": "pages/downword/downword",
+          "query": "id=2",
+          "scene": null
+        },
+        {
+          "name": "pages/article/article",
+          "pathName": "pages/article/article",
+          "query": "id=12",
+          "scene": null
+        },
+        {
+          "name": "pages/article/article",
+          "pathName": "pages/article/article",
+          "query": "id=65554",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

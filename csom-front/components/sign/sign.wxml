@@ -1,0 +1,5 @@
+<view class="content">
+    <text class="text">机务维修小常识</text>
+</view>
+<slot class="pagetotle"></slot>
+  

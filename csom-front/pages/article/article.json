@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "sign":"../../components/sign/sign",
+    "signature":"../../components/signature/signature"
+  }
+}

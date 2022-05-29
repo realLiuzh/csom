@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "tabs":"../../components/tabs/tabs",
+    "search":"../../components/search/search",
+    "sign":"../../components/sign/sign",
+    "list":"../../components/list/list",
+    "listrepair":"../../components/listrepair/listrepair",
+    "currentpage":"../../components/currentpage/currentpage"
+  }
+}

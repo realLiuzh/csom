@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "sign":"../../components/sign/sign",
+    "listrepair":"../../components/listrepair/listrepair",
+    "currentpage":"../../components/currentpage/currentpage"
+  }
+}

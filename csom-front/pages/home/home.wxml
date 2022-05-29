@@ -1,0 +1,24 @@
+<!-- 图标 -->
+<sign class="sign">
+    <view class="totle">总浏览量：{{result}}</view>
+</sign>
+<!-- 搜索 -->
+<search></search>
+<!-- 分页栏 -->
+<tabs tabs="{{tabs}}" binditemChange="handleItemChange" class="tabs">
+    <block wx:if="{{tabs[0].isActive}}">
+        <list list="{{list}}"></list>
+    </block>
+    <block wx:if="{{tabs[1].isActive}}">
+        <view class="content">
+            <view class="cont" wx:for="{{listdrive}}" wx:key="id">
+                <navigator url="{{item.url}}" class="item">
+                    {{item.name}}
+                    <i class="iconfont icon-dayuhao pos"></i>
+                </navigator>
+            </view>
+        </view>
+    </block>
+</tabs>
+<!-- 分页 -->
+<currentpage class="currentpage" page="{{page}}" binditemcurrPage="handlechangecurr" wx:if="{{showpage}}"></currentpage>

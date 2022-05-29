@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/search/search",
+    "pages/article/article",
+    "pages/listdrive/listdrive",
+    "pages/analysis/analysis",
+    "pages/downword/downword"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#EF5B5F",
+    "navigationBarTitleText": "机务维修小常识",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  
+}

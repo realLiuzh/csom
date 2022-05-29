@@ -1,0 +1,7 @@
+<view class="content">
+    <view class="last" bindtap="handfirst" data-curr="{{page.currPage - 1}}">上一页</view>
+    <view class="item specile">{{page.currPage}}</view>
+    <view class="item" bindtap="handleitem" data-curr="{{page.currPage + 1}}">{{page.currPage + 1 }}</view>
+    <view class="item" bindtap="handleitem" data-curr="{{page.currPage + 2}}">{{page.currPage + 2 }}</view>
+    <view class="next" bindtap="handlast" data-curr="{{page.currPage + 1}}">下一页</view>
+</view>

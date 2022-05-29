@@ -1,0 +1,10 @@
+<sign></sign>
+<view class="title">维修软件更新</view>
+<view
+    wx:for="{{result}}"
+    wx:key="key"
+    class="content"
+>
+    <view class="name">{{item}}</view>
+    <button class="down" bind:tap="down" data-name="{{item}}">下载</button>
+</view>

@@ -1,0 +1,40 @@
+<!-- 维修工日常维护的列表 -->
+<view class="content">
+  <view
+  class="cont"
+  wx:for="{{listRepair}}" 
+  wx:key="id"
+  >
+    <navigator url="/pages/listdrive/listdrive?id={{item.id}}" class="item">
+      {{item.name}}
+      <i class="iconfont icon-dayuhao pos"></i>
+    </navigator>
+  </view> 
+</view>
+<!-- 技术培训的列表 -->
+<view class="content">
+  <view
+  class="cont"
+  wx:for="{{listTrain}}" 
+  wx:key="id"
+  >
+    <navigator url="/pages/article/article?id={{item.id}}" class="item" >
+      {{item.title}}
+      <i class="iconfont icon-dayuhao pos"></i>
+    </navigator>
+  </view> 
+</view>
+<!-- 维修案例分析的列表 -->
+<view class="content">
+  <view
+  class="cont"
+  wx:for="{{listanalysis}}" 
+  wx:key="id"
+  >
+    <navigator url="/pages/article/article?id={{item.id}}" class="item">
+      {{item.title}}
+      <i class="iconfont icon-dayuhao pos"></i>
+    </navigator>
+  </view> 
+</view>
+

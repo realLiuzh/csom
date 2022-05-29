@@ -1,0 +1,21 @@
+@import "../../style/font.wxss";
+.cont{
+    border: 1rpx solid black;
+    height: 80rpx;
+    padding: 15rpx;
+    border-radius: 20rpx;
+    margin: 20rpx;
+    color: #666;
+}
+.item{
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cont .item .pos{
+    position: absolute;
+    right: 0;
+    font-size: 50rpx;
+    line-height: 45rpx;
+}
